@@ -1,0 +1,14 @@
+<header class="navbar navbar-inverse navbar-static-top">
+	<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></a>
+	<div class="navbar-inner">
+		<a href="#users/users_panel" class="brand">electrodigitales</a>
+		<ul class="nav">
+			<li class="active" id="users"><a href="#home">Usuarios</a></li>
+			<li id="services"><a href="#services">Ordenes</a></li>
+		</ul>
+		<div class="pull-right align-right">
+			<a href="#" class="nav-link" ><%= if App.user.name()? then App.user.name() else App.user.email() %></a></br>
+			<a href="#" id="sign_out" class="nav-link" >Cerrar Sesión</a>
+		</div>
+	</div>
+</header>

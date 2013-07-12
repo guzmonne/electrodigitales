@@ -1,0 +1,16 @@
+<div class="navbar navbar-inverse navbar-fixed-bottom">
+		<div class="navbar-inner">
+			<div class="row-fluid">
+				<div class="span4"></div>
+				<div class="span4">
+					<p class="text-center">Desarrollado por <strong>Guzmán Monné</strong></p>
+				</div>
+				<div class="span3 pull-right">
+					<div id="progress_bar" class="progress progress-striped progress-inactive margin-box" style="margin-top: 10px; margin-bottom: 0; margin-right: 10px;">
+	  				<div class="bar" style="width: 100%;"></div>
+					</div>	
+				</div>
+			</div>
+		</div>
+</div>	
+

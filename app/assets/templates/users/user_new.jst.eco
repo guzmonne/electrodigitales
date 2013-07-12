@@ -1,0 +1,52 @@
+<form class="form-horizontal box">
+	<div class="control-group">
+		<label for="email" class="control-label">Email</label>
+		<div class="controls">
+			<input type="email" name="email" class="span8" placeholder="Email">
+		</div>
+	</div>
+	<div class="control-group">
+		<label for="password" class="control-label">Password</label>
+		<div class="controls">
+			<input type="password" name="password" class="span8" placeholder="Password">
+		</div>
+	</div>
+	<div class="control-group">
+		<label for="confirm" class="control-label">Confirmación</label>
+		<div class="controls">
+			<input type="password" name="confirm" class="span8" placeholder="Confirmar Password">
+		</div>
+	</div>
+	<div id="more_data" class="box-whitesmoke hide">
+		<div class="control-group">
+			<label for="name" class="control-label">Nombre</label>
+			<div class="controls">
+				<input type="text" name="name" class="span8" placeholder="Nombre">
+			</div>
+		</div>
+		<div class="control-group">
+			<label for="phone" class="control-label">Telefono</label>
+			<div class="controls">
+				<input type="number" name="phone" class="span8" placeholder="Telefono">
+			</div>
+		</div>
+		<div class="control-group">
+			<label for="cellphone" class="control-label">Celular</label>
+			<div class="controls">
+				<input type="number" name="cellphone" class="span8" placeholder="Celular">
+			</div>
+		</div>
+		<div class="control-group control-group-last">
+			<label for="address" class="control-label">Dirección</label>
+			<div class="controls">
+				<input type="text" name="address" class="span8" placeholder="Dirección">
+			</div>
+		</div>
+	</div>
+	<div class="control-group">
+		<div class="controls">
+			<button class="btn btn-inverse" id="show_more_data">Más Datos</button>
+			<input type="submit" class="btn btn-primary" value="Crear Usuario">
+		</div>
+	</div>
+</form>

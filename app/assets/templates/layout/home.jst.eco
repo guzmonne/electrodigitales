@@ -1,0 +1,12 @@
+<div class="span2">
+	<div class="box">
+		<ul class="nav nav-pills nav-stacked">
+			<li class="active"><a href="#" data-template="user_panel">Panel de Usuario</a></li>
+			<li><a href="#">Modificar Panel</a></li>
+			<li><a href="#" data-template="user_edit">Modificar Datos</a></li>
+			<li><a href="#" data-template="user_change_password">Cambiar Contraseña</a></li>
+			<li><a href="#" data-template="user_new">Nuevo Usuario</a></li>
+		</ul>
+	</div>
+</div>
+<div class="span10 active" id="contentView"></div>

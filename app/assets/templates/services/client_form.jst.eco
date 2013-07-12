@@ -1,0 +1,50 @@
+<form class="form-horizontal box">
+	<div class="control-group">
+		<label for="name" class="control-label">Nombre</label>
+		<div class="controls">
+			<input type="text" name="name" class="span8" placeholder="Nombre">
+		</div>
+	</div>
+	<div class="control-group">
+		<label for="membership_number" class="control-label">N° de Socio</label>
+		<div class="controls">
+			<input type="text" name="member_number"class="span8" placeholder="N° de Socio">
+		</div>
+	</div>
+	<div class="control-group">
+		<label for="address" class="control-label">Dirección</label>
+		<div class="controls">
+			<input type="text" name="address" class="span8" placeholder="Dirección">
+		</div>
+	</div>
+	<div class="control-group">
+		<label for="phone" class="control-label">Telefono</label>
+		<div class="controls">
+			<input type="number" name="phone" class="span8" placeholder="Telefono">
+		</div>
+	</div>
+	<div class="control-group">
+		<label for="cellphone" class="control-label">Celular</label>
+		<div class="controls">
+			<input type="number" name="cellphone" class="span8" placeholder="Celular">
+		</div>
+	</div>
+	<div class="control-group">
+		<label for="email" class="control-label">Email</label>
+		<div class="controls">
+			<input type="email" name="email" class="span8" placeholder="Email">
+		</div>
+	</div>
+	<div class="control-group">
+		<label for="document" class="control-label">RUT o C.I.</label>
+		<div class="controls">
+			<input type="number" name="document" class="span8" placeholder="RUT o C.I.">
+		</div>
+	</div>
+	<div class="control-group">
+		<div class="controls">
+			<input type="submit" id="save" class="btn btn-primary" value="Crear Cliente">
+			<input type="submit" id="edit" class="btn btn-success hide" value="Actualizar Datos">
+		</div>
+	</div>
+</form>	

@@ -1,0 +1,16 @@
+<div class="box">
+	<div class="row-fluid">
+		<div class="span4 offset4 well">
+			<legend>Por favor inicie su sesión</legend>
+			<div id="notice"></div>
+			<form id="sign_in_form">
+			<input type="email" id="email" class="span12" name="email" placeholder="Username">
+			<input type="password" id="password" class="span12" name="password" placeholder="Contraseña">
+      <label class="checkbox">
+      	<input type="checkbox" name="remember"> Recordar contraseña?
+      </label>
+			<button type="submit" name="submit" class="btn btn-info btn-block" id="sign_in">Iniciar Sesión</button>
+			</form>    
+		</div>
+	</div>
+</div>
